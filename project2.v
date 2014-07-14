@@ -4,8 +4,8 @@
 // CREATE DATE  : 09:45:29 June 26, 2014
 // PROJECT NAME : Guessing Game / Electronic Lock
 // MODULE NAME  : project2
-// REVISIONS    : 
 ///////////////////////////////////////////////////////
+
 module project2(clock, switches, buttons, leds, cathods, anodes);
 	input  clock;
 	input [6:0] switches;
@@ -15,27 +15,31 @@ module project2(clock, switches, buttons, leds, cathods, anodes);
 	output reg [7:0] cathods;
 	output reg [3:0] anodes;
 
-	// Maintain the clock count
+	// Variables to Maintain the clock count
 	integer count = 0;
 	integer myCount = 0;
 	
-	// Player 1 => 0 and Player 2 => 1
+	// Player 1 => 0
+	// Player 2 => 1
 	integer player = 1'b0;
 	
 	// Find if default message has tl be shown to the players
 	integer defaultMessage = 1'b1;
 	
-	// tempn represents the nth Anode in 7-Segement display
-	integer temp3 = 8'b11111111;	// P
-	integer temp2 = 8'b11111111;	// L
-	integer temp1 = 8'b11111111;	// 
-	integer temp0 = 8'b11111111;	// 1 / 2
+	// tempn represents the 'nth' Anode in 7-Segement display
+	integer temp3 = 8'b11111111;
+	integer temp2 = 8'b11111111;
+	integer temp1 = 8'b11111111;
+	integer temp0 = 8'b11111111;
+	// Initialized all the 7-Segment displays to show no value
 	
+	// To keep the backup of the numbers Player 1 entered
 	integer backupValue0 = 0;
 	integer backupValue1 = 0;
 	integer backupValue2 = 0;
 	integer backupValue3 = 0;
 	
+	// To keep record of the numbers existing player entered
 	integer finalValue0 = 0;
 	integer finalValue1 = 0;
 	integer finalValue2 = 0;
@@ -92,6 +96,7 @@ module project2(clock, switches, buttons, leds, cathods, anodes);
 				temp2 = 8'b11111111;
 				temp1 = 8'b11111111;
 				
+				// ASSUMPTION: There are no more than 15 Attempts
 				case(attempts)
 				4'h0: temp0 = 8'b11000000;
 				4'h1: temp0 = 8'b11111001;
@@ -410,3 +415,5 @@ module project2(clock, switches, buttons, leds, cathods, anodes);
 		end
 	end
 endmodule
+
+// EOF
