@@ -2,11 +2,8 @@ GuessingGame
 ============
 
 NAME               : ANKIT SARRAF
-
 PROJECT 2 (CSE 590): GUESSING GAME
-
 UB ID              : sarrafan
-
 DESCRIPTION        : STEPS TO REALIZE PROJECT 2
 
 1) Start FPGA Board
