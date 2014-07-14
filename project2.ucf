@@ -1,0 +1,49 @@
+# NAME      : ANKIT SARRAF
+# TITLE     : UCF File
+# PURPOSE   : This file defines the ports for various pin
+#             assignments on the Basys2 board
+
+# Clock pin for Basys2 Board
+NET "clock" LOC = "B8";  
+
+# Pin assignment for SWs
+NET "switches<0>" LOC = "P11";  # Bank = 2, Signal name = SW0
+NET "switches<1>" LOC = "L3";   # Bank = 3, Signal name = SW1
+NET "switches<2>" LOC = "K3";   # Bank = 3, Signal name = SW2
+NET "switches<3>" LOC = "B4";   # Bank = 3, Signal name = SW3
+NET "switches<4>" LOC = "G3";   # Bank = 3, Signal name = SW4
+NET "switches<5>" LOC = "F3";   # Bank = 3, Signal name = SW5
+NET "switches<6>" LOC = "E2";   # Bank = 3, Signal name = SW6
+#NET "switches<7>" LOC = "N3";   # Bank = 2, Signal name = SW7
+
+# Pin assignment for Push Buttons
+NET "buttons<3>" LOC = "A7";    # Bank = 1, Signal name = BTN3
+NET "buttons<2>" LOC = "M4";    # Bank = 0, Signal name = BTN2
+NET "buttons<1>" LOC = "C11";   # Bank = 2, Signal name = BTN1
+NET "buttons<0>" LOC = "G12";   # Bank = 0, Signal name = BTN0
+
+# Pin assignment for LEDs
+NET "leds<7>" LOC = "G1";       # Bank = 3, Signal name = LD7
+NET "leds<6>" LOC = "P4";       # Bank = 2, Signal name = LD6
+NET "leds<5>" LOC = "N4";       # Bank = 2, Signal name = LD5
+NET "leds<4>" LOC = "N5";       # Bank = 2, Signal name = LD4
+NET "leds<3>" LOC = "P6";       # Bank = 2, Signal name = LD3
+NET "leds<2>" LOC = "P7";       # Bank = 3, Signal name = LD2
+NET "leds<1>" LOC = "M11";      # Bank = 2, Signal name = LD1
+NET "leds<0>" LOC = "M5";       # Bank = 2, Signal name = LD0
+
+# Pin assignment for 7 - Segmment Display (Cathods)
+NET "cathods<7>" LOC = "N13";  # Bank = 1, Signal name = DP
+NET "cathods<6>" LOC = "M12";  # Bank = 1, Signal name = CG
+NET "cathods<5>" LOC = "L13";  # Bank = 1, Signal name = CF
+NET "cathods<4>" LOC = "P12";  # Bank = 2, Signal name = CE
+NET "cathods<3>" LOC = "N11";  # Bank = 2, Signal name = CD
+NET "cathods<2>" LOC = "N14";  # Bank = 1, Signal name = CC
+NET "cathods<1>" LOC = "H12";  # Bank = 1, Signal name = CB
+NET "cathods<0>" LOC = "L14";  # Bank = 1, Signal name = CA
+
+# Pin assignment for 7 - Segement Display (Anodes)
+NET "anodes<3>" LOC = "F12";    # Bank = 1, Signal name = AN3
+NET "anodes<2>" LOC = "J12";    # Bank = 1, Signal name = AN2
+NET "anodes<1>" LOC = "M13";    # Bank = 1, Signal name = AN1
+NET "anodes<0>" LOC = "K14";    # Bank = 1, Signal name = AN0
