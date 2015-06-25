@@ -1,5 +1,5 @@
-GuessingGame
-============
+Guessing Game
+=============
 
 NAME               : ANKIT SARRAF
 
