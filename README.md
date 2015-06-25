@@ -1,15 +1,17 @@
 Guessing Game
 =============
 
-NAME                  : ANKIT SARRAF
+NAME                  : Ankit Sarraf
 
-PROJECT 2 (CSE 590)   : GUESSING GAME
+PROJECT 2 (CSE 590)   : Guessing Game
 
-PROGRAMMNING LANGUAGE : VERILOG
+PROGRAMMNING LANGUAGE : Verilog
 
-DESCRIPTION           : STEPS TO REALIZE PROJECT 2 (Understanding with an example)
+DESCRIPTION           : Number Guessing Game developed using Verilog
 
-SCHOOL                : STATE UNIVERSITY OF NEW YORK AT BUFFALO (SUNY BUFFALO)
+SCHOOL                : State University of New York at Buffalo (SUNY Buffalo)
+
+Test Flow:
 
 1) Start FPGA Board
 
