@@ -1,13 +1,11 @@
 Guessing Game
 =============
 
-NAME               : ANKIT SARRAF
-
-PROJECT 2 (CSE 590): GUESSING GAME
-
-UB ID              : sarrafan
-
-DESCRIPTION        : STEPS TO REALIZE PROJECT 2 (Understanding with an example)
+NAME                  : ANKIT SARRAF
+PROJECT 2 (CSE 590)   : GUESSING GAME
+PROGRAMMNING LANGUAGE : VERILOG
+DESCRIPTION           : STEPS TO REALIZE PROJECT 2 (Understanding with an example)
+SCHOOL                : STATE UNIVERSITY OF NEW YORK AT BUFFALO (SUNY BUFFALO)
 
 1) Start FPGA Board
 
