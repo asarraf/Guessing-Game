@@ -13,7 +13,7 @@ SCHOOL                : State University of New York at Buffalo (SUNY Buffalo)
 
 Test Flow:
 
-1) Start FPGA Board
+1) Switch on the FPGA Board
 
 2) Install the program on the Board
 
