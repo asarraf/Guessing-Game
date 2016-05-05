@@ -15,6 +15,7 @@ Test Flow:
 - Button 1 => 2<br />
 - Button 2 => 4<br />
 - Button 3 => 8<br />
+
 5) Set Seven Segment to "8421"<br />
 6) Push the Slider Switch 4 = 1<br />
 7) "PL 2" displayed on 7 Segment<br />
@@ -42,6 +43,5 @@ Test Flow:
 - slider switch 5 = 0<br />
 - slider switch 4 = 0<br />
   (Required to be done in order)<br />
-<br />
 <br />
 <b>NOTE:</b> Push Buttons might be required to be pressed mulltiple times to set the seven segment to particular value
