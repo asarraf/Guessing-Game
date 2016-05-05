@@ -42,6 +42,7 @@ Test Flow:
 28) Now a new game can be started by changing the (Only when the Player 1 finishes the first game)<br />
 - slider switch 5 = 0<br />
 - slider switch 4 = 0<br />
-  (Required to be done in order)<br />
-<br />
+  (Required to be done in order)
+
+
 <b>NOTE:</b> Push Buttons might be required to be pressed mulltiple times to set the seven segment to particular value
